@@ -74,7 +74,7 @@ flowchart LR
     F --> G[Rapport Final]
 ```
 
-## ⚡ Installation Rapide
+## Installation Rapide
 
 ### Prérequis
 
@@ -82,7 +82,18 @@ flowchart LR
 - GPU recommandé (CUDA compatible)
 - 8GB RAM minimum
 
-### 🛠️ Installation
+> **Note** : Les notebooks utilisent des chemins locaux pour accéder aux données (`data/raw/MIAS/`, `data/processed/`).  
+> Assurez-vous de télécharger le dataset MIAS avant d’exécuter les notebooks.
+
+### Télécharger le dataset MIAS via Kaggle
+
+[Kaggle MIAS Mammography Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography)
+
+```bash
+kaggle datasets download -d kmader/mias-mammography
+```
+
+### Installation
 
 ```bash
 # Cloner le repository
