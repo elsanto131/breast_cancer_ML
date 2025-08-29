@@ -1,0 +1,125 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+tf-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# FICHIERS VOLUMINEUX - EXCLUS DU REPOSITORY
+# ==========================================
+
+# Modèles entraînés (fichiers lourds)
+*.keras
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.onnx
+
+# Historiques et checkpoints
+*.pkl
+*.pickle
+*.joblib
+*.ckpt
+*.tar
+*.zip
+
+# Données et datasets (tous formats)
+data/
+datasets/
+*.npy
+*.npz
+*.mat
+*.csv
+*.json
+*.parquet
+*.feather
+
+# Images et médias
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Fichiers de cache et temporaires
+*.log
+*.tmp
+*.temp
+cache/
+logs/
+temp/
+
+# Outputs et résultats
+results/
+outputs/
+figures/
+plots/
+models/
