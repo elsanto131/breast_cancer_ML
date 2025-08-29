@@ -128,7 +128,7 @@ Les contributions sont bienvenues (issues/PR). Merci de nettoyer les sorties lou
 MIT — voir [LICENSE](LICENSE).
 
 ## Remerciements
--MIAS Database : Mammographic Image Analysis Society.  
+- MIAS Database : Mammographic Image Analysis Society.  
 - BeCode et mon coach.  
 - Ma classe Thomas 5 : entraide, revues de code et tests.  
 - NRB 
